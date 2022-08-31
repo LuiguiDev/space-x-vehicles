@@ -3,12 +3,12 @@ import React from 'react';
 function Spacecraft(props) {
   return (
     <div className='container'>
-      <h2>{props.name}</h2>
       <img 
         className='image' 
         src={require(`../images/${props.image}.jpg`)}
         alt='images' />
       <div className='features'>
+        <h2>{props.name}</h2>
         <p><strong>Height</strong> {props.height}</p>
         <p><strong>Diameter</strong> {props.diameter}</p>
         <p><strong>Mass</strong> {props.mass}</p>

@@ -1,0 +1,17 @@
+
+.container{
+    display: flex;
+    height: 260px;
+    min-width: 505px;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 1px rgba(212, 212, 212, 0.113);
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+h2{
+    margin-bottom: 25px;
+}
